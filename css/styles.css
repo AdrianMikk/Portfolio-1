@@ -35,11 +35,12 @@ section {
   justify-content: center;
   width: 100%;
   min-height: 100vh;
+  height: fit-content;
   align-items: center;
 }
 
 .introduction {
-  height: 100vh;
+  height: fit-content;
   display: grid;
 }
 
