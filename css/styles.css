@@ -30,15 +30,20 @@ main {
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  height: 100vh;
   margin: auto;
   width: 100%;
 }
 
 .introduction {
-  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education {
+  display: grid;
+  align-content: space-around;
 }
 
 /* NAV */
@@ -68,6 +73,7 @@ header {
 .intro-text {
   color: white;
   padding: 10px;
+  /* text-align: center; */
 }
 
 .hamburger {
