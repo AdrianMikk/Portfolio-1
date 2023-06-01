@@ -30,18 +30,26 @@ main {
 }
 
 section {
-  /* height: 100vh; */
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
+  min-height: 100vh;
+  align-items: center;
 }
 
 .introduction {
   height: 100vh;
+  display: grid;
 }
 
 .education {
   display: grid;
   align-content: space-around;
+}
+
+.about {
+  height: 100vh;
 }
 
 /* NAV */
@@ -71,7 +79,7 @@ header {
 .intro-text {
   color: white;
   padding: 10px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .hamburger {
@@ -159,7 +167,7 @@ footer {
 }
 
 .description {
-  font-size: 14px;
+  /* font-size: 14px; */
   color: #fff;
   text-align: center;
 }
