@@ -3,7 +3,6 @@
   margin: 0;
   list-style: none;
   text-decoration: none;
-  box-sizing: content-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -56,14 +55,14 @@ section {
 /* NAV */
 
 header {
-  width: 100%;
+  /* width: 100%; */
   height: 80px;
   background: #d9d9d9;
   color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0 100px;
 }
 
@@ -224,7 +223,8 @@ footer {
 }
 
 .about-p {
-  padding: 75px;
+  max-width: 500px;
+  padding: 50px;
 }
 
 .about-image {
