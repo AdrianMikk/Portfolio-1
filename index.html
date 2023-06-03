@@ -25,7 +25,10 @@
         <nav class="nav-bar">
             <ul class="nav-links">
                 <li>
-                    <a class="active" href="index.html">Home</a>
+                    <a class="active" href="#intro">Home</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li>
                     <a href="#education">Education</a>
@@ -41,11 +44,33 @@
         </div>
     </header>
     <main>
-        <div class="intro-text">
-            <h1>Hello, I'm Adrian</h1>
-            <p>Welcome to my portfolio! Here you can see my past projects.</p>
+        <section class="intro" id="intro">
+            <div class="intro-text">
+                <h1>Hello, I'm Adrian</h1>
+                <p>Welcome to my portfolio!</p>
+            </div>
+            <div class="intro-image">
+                <img src="/images/aboutme.png" alt="" class="intro-image">
+                <div class="modal" id="modal"></div>
+            </div>
+            <article class="intro-p">
+                <p>Hi, I'm Adrian Mikkelsen Johannessen. I'm a 24 year old Front-End Development student
+                    at
+                    Noroff University.
+                    I live in Bergen,
+                    Norway. <br>
+                    I've always been a fan of computers and tech. So this career path is a natural choice for me. I'm
+                    always
+                    motivated to learn more and I can appreciate a good challenge. <br>
+                    In my time off, I like to play video games, play guitar, being with friends, and hanging out with my
+                    lovely
+                    wife.</p>
+            </article>
+        </section>
+        <div>
         </div>
-        <section class="introduction" id="introduction">
+        <section class="projects" id="projects">
+            <h2 class="projects-h2">These are my past projects, that I've designed and developed myself:</h2>
             <div class="card-wrapper">
                 <div>
                     <div class="card">
@@ -164,6 +189,7 @@
     </div>
     <script src="/js/navigation.js"></script>
     <script src="/js/contact.js"></script>
+    <script src="/js/index.js"></script>
 </body>
 
 </html>
