@@ -302,11 +302,16 @@ footer {
   background: linear-gradient(to right, #c33764, #1d2671);
 }
 
-.contact-h1,
-.contact-p {
+.contact-h1 {
   color: white;
   text-align: center;
   margin-top: 80px;
+}
+
+.contact-p {
+  color: white;
+  text-align: center;
+  margin: 10px;
 }
 
 input[type=text],
