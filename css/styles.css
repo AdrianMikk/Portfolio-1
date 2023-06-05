@@ -161,7 +161,12 @@ footer {
 /* PROJECTS */
 
 .projects {
-  background: linear-gradient(to right, #ca9c56, #4b1248);
+  background: linear-gradient(to right, #c33764, #1d2671);
+}
+
+.projects-h1 {
+  color: white;
+  font-size: 30px;
 }
 
 .projects-h2 {
@@ -257,17 +262,6 @@ footer {
   align-items: center;
 }
 
-/* PROJECTS */
-
-.projects {
-  background-image: linear-gradient(to right, #ff9966, #ff5e62);
-}
-
-.projects-h1 {
-  color: white;
-  font-size: 30px;
-}
-
 /* ABOUT ME */
 
 .about {
@@ -299,7 +293,7 @@ footer {
 /* CONTACT ME */
 
 .contact {
-  background: linear-gradient(to right, #c33764, #1d2671);
+  background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
 .contact-h1 {
