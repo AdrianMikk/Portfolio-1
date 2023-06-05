@@ -268,26 +268,6 @@ footer {
   font-size: 30px;
 }
 
-/* EDUCATION */
-
-.education {
-  background: linear-gradient(to right, #c33764, #1d2671);
-}
-
-.education-h1,
-.education-h2,
-.education-p {
-  color: white;
-  text-align: center;
-}
-
-.language-wrapper {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 50px;
-}
-
 /* ABOUT ME */
 
 .about {
@@ -319,7 +299,7 @@ footer {
 /* CONTACT ME */
 
 .contact {
-  background: linear-gradient(to right, #485563, #29323c);
+  background: linear-gradient(to right, #c33764, #1d2671);
 }
 
 .contact-h1,
