@@ -34,8 +34,8 @@ main {
 .wrapper {
   width: 100%;
   height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+  /* overflow-y: scroll; */
+  /* scroll-snap-type: y mandatory; */
 }
 
 section {
@@ -47,7 +47,7 @@ section {
   height: fit-content;
   align-items: center;
 
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 
 h1 {
@@ -71,7 +71,6 @@ h1 {
 /* NAV */
 
 header {
-  /* width: 100%; */
   height: 80px;
   background: #d9d9d9;
   color: black;
@@ -130,12 +129,9 @@ header {
   background: linear-gradient(90deg, #7bed9f, #3498db);
 }
 
-footer {
-  background-color: #ffffff;
-  color: #2c2929;
-  padding: 20px;
-  text-align: center;
-  margin-top: auto;
+.footer-p {
+  color: white;
+  margin: auto;
 }
 
 /* HOME PAGE */
@@ -188,7 +184,6 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 0 20px 0 20px;
-  /* margin: auto; */
 }
 
 .image-content,
@@ -340,6 +335,17 @@ input[type=submit]:hover {
   margin: auto;
 }
 
+.confirmDialog {
+  text-align: center;
+  font-size: 2rem;
+  margin: auto;
+  margin-top: -100px;
+  border: var(--footer-blue);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.0);
+  color: white;
+}
+
 #message {
   height: 200px;
 }
@@ -353,6 +359,20 @@ input[type=submit]:hover {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+}
+
+#successReturn {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .form-error {

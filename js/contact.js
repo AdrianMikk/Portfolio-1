@@ -4,6 +4,7 @@ const fullName = document.querySelector("#fullName");
 const subject = document.querySelector("#subject");
 const email = document.querySelector("#email");
 const message = document.querySelector("#message");
+const contactFormContainer = document.querySelector(".contact-container");
 
 function validateForm(event) {
     const errorMessages = document.querySelectorAll(".form-error");
@@ -66,10 +67,10 @@ submitButton.addEventListener("click", function (event) {
     if (validateForm()) {
         confDialog.style.display = "block";
         form.style.display = "none";
+        contactFormContainer.style.backgroundColor = "unset";
         console.log("form complete");
     } else {
-        console.log("Complete form");
-        event.preventDefault();
+        console.log("Incomplete form");
     }
 });
 
