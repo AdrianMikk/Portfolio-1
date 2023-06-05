@@ -25,7 +25,7 @@
         <nav class="nav-bar">
             <ul class="nav-links">
                 <li>
-                    <a class="active" href="#intro">Home</a>
+                    <a href="#intro">Home</a>
                 </li>
                 <li>
                     <a href="#projects">Projects</a>
@@ -44,152 +44,155 @@
         </div>
     </header>
     <main>
-        <section class="intro" id="intro">
-            <div class="intro-text">
-                <h1>Hello, I'm Adrian</h1>
-                <p>Welcome to my portfolio!</p>
+        <div class="wrapper">
+            <section class="intro" id="intro">
+                <div class="intro-text">
+                    <h1>Hello, I'm Adrian</h1>
+                    <p>Welcome to my portfolio!</p>
+                </div>
+                <div class="intro-image">
+                    <img src="/images/aboutme.png" alt="" class="intro-image">
+                    <div class="modal" id="modal"></div>
+                </div>
+                <article class="intro-p">
+                    <p>Hi, I'm Adrian Mikkelsen Johannessen. I'm a 24 year old Front-End Development student
+                        at
+                        Noroff University.
+                        I live in Bergen,
+                        Norway. <br>
+                        I've always been a fan of computers and tech. So this career path is a natural choice for me.
+                        I'm
+                        always
+                        motivated to learn more and I can appreciate a good challenge.</p>
+                </article>
+            </section>
+            <div>
             </div>
-            <div class="intro-image">
-                <img src="/images/aboutme.png" alt="" class="intro-image">
-                <div class="modal" id="modal"></div>
-            </div>
-            <article class="intro-p">
-                <p>Hi, I'm Adrian Mikkelsen Johannessen. I'm a 24 year old Front-End Development student
-                    at
-                    Noroff University.
-                    I live in Bergen,
-                    Norway. <br>
-                    I've always been a fan of computers and tech. So this career path is a natural choice for me. I'm
-                    always
-                    motivated to learn more and I can appreciate a good challenge. <br>
-                    In my time off, I like to play video games, play guitar, being with friends, and hanging out with my
-                    lovely
-                    wife.</p>
-            </article>
-        </section>
-        <div>
+            <section class="projects" id="projects">
+                <h1 class="projects-h1">Projects</h1>
+                <h2 class="projects-h2">These are my past projects, that I've designed and developed myself:</h2>
+                <div class="card-wrapper">
+                    <div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/rainydays.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Rainy Days</h2>
+                            <p class="description">An online shop for rain jackets.</p>
+                            <div class="button-flex">
+                                <a href="https://courageous-gelato-250ccd.netlify.app/"><button
+                                        class="button">Website</button></a>
+                                <a href="https://github.com/AdrianMikk/VSCode-RainyDays"><button
+                                        class="button">Github</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/csm.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Community Science Center</h2>
+                            <p class="description" id="description-csm">A community science center website for the
+                                younger
+                                generation.</p>
+                            <div class="button-flex">
+                                <a href="https://courageous-gelato-250ccd.netlify.app/"><button
+                                        class="button">Website</button></a>
+                                <a href="https://github.com/AdrianMikk/SemesterProject"><button
+                                        class="button">Github</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/travelblog.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">A & K's Travel Blog</h2>
+                            <p class="description">A travel blog for me and my wife.</p>
+                            <div class="button-flex">
+                                <a href="https://polite-bonbon-b608b5.netlify.app/"><button
+                                        class="button">Website</button></a>
+                                <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-AdrianMikk"><button
+                                        class="button">Github</button></a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="education" id="education">
+                <h1 class="education-h1">Education</h1>
+                <p class="education-p">I am currently studying Front-End Development at Noroff University.</p>
+                <h2 class="education-h2">Languages & Tools</h2>
+                <div class="language-wrapper">
+                    <img src="/images/html-5.png" alt="">
+                    <img src=" /images/css-3.png" alt="">
+                    <img src="/images/js.png" alt="">
+                    <img src="/images/figma.png" alt="">
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="about-image">
+                    <img src="/images/aboutme2-min.png" alt="" class="about-image">
+                </div>
+                <article class="about-p">
+                    <h1 class="about-h1">About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas in ipsa labore ullam, laborum
+                        nesciunt
+                        porro corporis eveniet tempore fugiat. Sint sequi necessitatibus fuga et consequuntur atque
+                        exercitationem numquam nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                        modi facere quam obcaecati, dicta iusto illo quia quasi totam consequatur! Sequi vero atque esse
+                        voluptas tempora, ex reprehenderit ad aliquid!
+                        In my time off, I like to play video games, play guitar, being with friends, and hanging out
+                        with my
+                        lovely
+                        wife.</p>
+                </article>
+            </section>
+            <section class="contact" id="contact">
+                <h1 class="contact-h1">Contact Me</h1>
+                <p class="contact-p">Feel free to contact me through this form!<br>
+                    I would love to hear from you.</p>
+                <div class="contact-container">
+                    <form>
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Your full name.." required>
+                        <div class="form-error" id="full-name-error"></div>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your email.." required>
+                        <div class="form-error" id="email-error"></div>
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject.." required>
+                        <div class="form-error" id="subject-error"></div>
+
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write something.." required></textarea>
+                        <div class="form-error" id="message-error"></div>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+            </section>
         </div>
-        <section class="projects" id="projects">
-            <h2 class="projects-h2">These are my past projects, that I've designed and developed myself:</h2>
-            <div class="card-wrapper">
-                <div>
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="images/rainydays.jpg" alt="" class="card-img">
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <h2 class="name">Rainy Days</h2>
-                        <p class="description">An online shop for rain jackets.</p>
-                        <div class="button-flex">
-                            <a href="https://courageous-gelato-250ccd.netlify.app/"><button
-                                    class="button">Website</button></a>
-                            <a href="https://github.com/AdrianMikk/VSCode-RainyDays"><button
-                                    class="button">Github</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="images/csm.jpg" alt="" class="card-img">
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <h2 class="name">Community Science Center</h2>
-                        <p class="description" id="description-csm">A community science center website for the younger
-                            generation.</p>
-                        <div class="button-flex">
-                            <a href="https://courageous-gelato-250ccd.netlify.app/"><button
-                                    class="button">Website</button></a>
-                            <a href="https://github.com/AdrianMikk/SemesterProject"><button
-                                    class="button">Github</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="images/travelblog.jpg" alt="" class="card-img">
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <h2 class="name">A & K's Travel Blog</h2>
-                        <p class="description">A travel blog for me and my wife.</p>
-                        <div class="button-flex">
-                            <a href="https://polite-bonbon-b608b5.netlify.app/"><button
-                                    class="button">Website</button></a>
-                            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-AdrianMikk"><button
-                                    class="button">Github</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="education" id="education">
-            <h2 class="education-h2">Education</h2>
-            <p class="education-p">I am currently studying Front-End Development at Noroff University.</p>
-            <h2 class="education-h2">Languages & Tools</h2>
-            <div class="language-wrapper">
-                <img src="/images/html-5.png" alt="">
-                <img src=" /images/css-3.png" alt="">
-                <img src="/images/js.png" alt="">
-                <img src="/images/figma.png" alt="">
-            </div>
-        </section>
-        <section class="about" id="about">
-            <h2 class="about-h2">About Me</h2>
-            <div class="about-image">
-                <img src="/images/aboutme.png" alt="" class="about-image">
-            </div>
-            <article class="about-p">
-                <p>Hi, I'm Adrian Mikkelsen Johannessen. I'm a 24 year old Front-End Development student
-                    at
-                    Noroff University.
-                    I live in Bergen,
-                    Norway. <br>
-                    I've always been a fan of computers and tech. So this career path is a natural choice for me. I'm
-                    always
-                    motivated to learn more and I can appreciate a good challenge. <br>
-                    In my time off, I like to play video games, play guitar, being with friends, and hanging out with my
-                    lovely
-                    wife.</p>
-            </article>
-        </section>
-        <section class="contact" id="contact">
-            <h2 class="contact-h2">Contact Me</h2>
-            <p class="contact-p">Feel free to contact me through this form!<br>
-                I would love to hear from you.</p>
-            <div class="contact-container">
-                <form>
-                    <label for="fullName">Full Name</label>
-                    <input type="text" id="fullName" name="fullName" placeholder="Your full name.." required>
-                    <div class="form-error" id="full-name-error"></div>
-
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Your email.." required>
-                    <div class="form-error" id="email-error"></div>
-
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" placeholder="Subject.." required>
-                    <div class="form-error" id="subject-error"></div>
-
-
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Write something.." required></textarea>
-                    <div class="form-error" id="message-error"></div>
-
-                    <input type="submit" value="Submit">
-
-                </form>
-            </div>
-        </section>
+        </div>
+        </div>
     </main>
     <footer>&copy; 2023 My Portfolio. All rights reserved.</footer>
-    </div>
     <script src="/js/navigation.js"></script>
     <script src="/js/contact.js"></script>
     <script src="/js/index.js"></script>
 </body>
 
 </html>
+
+<!-- background-image: linear-gradient(to right, #ff6e7f, #bfe9ff); -->

@@ -21,7 +21,6 @@ html {
 body {
   background: #36454f;
   overflow-x: hidden;
-  /* background: linear-gradient(90deg, #7bed9f, #3498db); */
 }
 
 main {
@@ -32,6 +31,13 @@ main {
   min-width: 100%;
 }
 
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -40,6 +46,12 @@ section {
   min-height: 100vh;
   height: fit-content;
   align-items: center;
+
+  scroll-snap-align: start;
+}
+
+h1 {
+  font-size: 30px;
 }
 
 .introduction {
@@ -49,7 +61,7 @@ section {
 
 .education {
   display: grid;
-  align-content: space-around;
+  align-content: space-evenly;
 }
 
 .about {
@@ -70,7 +82,7 @@ header {
   padding: 0 100px;
   position: sticky;
   top: 0;
-  z-index: 99;
+  z-index: 999;
 }
 
 .nav-bar.active {
@@ -87,6 +99,7 @@ header {
   color: white;
   padding: 10px;
   text-align: center;
+  font-size: large;
 }
 
 .hamburger {
@@ -127,8 +140,13 @@ footer {
 
 /* HOME PAGE */
 
+.intro {
+  background-image: radial-gradient(circle farthest-corner at 22.4% 21.7%, rgba(4, 189, 228, 1) 0%, rgba(2, 83, 185, 1) 100.2%);
+
+}
+
 .intro-p {
-  max-width: 500px;
+  max-width: 521px;
   padding: 40px;
   color: white;
 }
@@ -142,10 +160,14 @@ footer {
 
 /* PROJECTS */
 
+.projects {
+  background: linear-gradient(to right, #f0c27b, #4b1248);
+}
+
 .projects-h2 {
   color: white;
   text-align: center;
-  font-size: x-large;
+  font-size: larger;
   font-weight: normal;
   margin: 100px;
 }
@@ -181,6 +203,13 @@ footer {
   width: 300px;
   border-radius: 20px;
   padding: 3px;
+}
+
+.card-image:hover {
+  color: #111;
+  background: linear-gradient(90deg, rgb(123, 237, 159), rgb(52, 152, 219));
+  box-shadow: 0 0 100px linear-gradient(90deg, rgb(123, 237, 159), rgb(52, 152, 219));
+  border-radius: 10px;
 }
 
 .card-image .card-img {
@@ -228,13 +257,28 @@ footer {
   align-items: center;
 }
 
+/* PROJECTS */
+
+.projects {
+  background-image: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+.projects-h1 {
+  color: white;
+  font-size: 30px;
+}
+
 /* EDUCATION */
 
+.education {
+  background: linear-gradient(to right, #c33764, #1d2671);
+}
+
+.education-h1,
 .education-h2,
 .education-p {
   color: white;
   text-align: center;
-  padding: 20px;
 }
 
 .language-wrapper {
@@ -246,9 +290,17 @@ footer {
 
 /* ABOUT ME */
 
-.about-h2 {
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+.about-h1 {
   color: white;
   text-align: center;
+  padding: 40px;
 }
 
 .about-p {
@@ -257,16 +309,20 @@ footer {
   color: white;
 }
 
-.intro-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 0 5px 0;
+.about-image {
+  float: left;
+  margin-right: 20px;
 }
+
+
 
 /* CONTACT ME */
 
-.contact-h2,
+.contact {
+  background: linear-gradient(to right, #485563, #29323c);
+}
+
+.contact-h1,
 .contact-p {
   color: white;
   text-align: center;
@@ -283,7 +339,7 @@ textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;
+  resize: none;
 }
 
 input[type=submit] {
@@ -303,7 +359,6 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
   margin: auto;
-  margin-bottom: 40px;
 }
 
 #message {
@@ -398,5 +453,10 @@ input[type=submit]:hover {
 
   .nav-bar ul li a {
     margin-bottom: 12px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
   }
 }
