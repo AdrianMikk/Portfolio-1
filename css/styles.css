@@ -204,12 +204,12 @@ header {
   padding: 3px;
 }
 
-.card-image:hover {
+/* .card-image:hover {
   color: #111;
   background: linear-gradient(90deg, rgb(123, 237, 159), rgb(52, 152, 219));
   box-shadow: 0 0 100px linear-gradient(90deg, rgb(123, 237, 159), rgb(52, 152, 219));
   border-radius: 10px;
-}
+} */
 
 .card-image .card-img {
   height: 100%;
@@ -239,6 +239,7 @@ header {
   font-size: 16px;
   padding: 8px 16px;
   background: linear-gradient(90deg, #7bed9f, #3498db);
+  color: black;
   border-radius: 6px;
   margin: 14px;
   cursor: pointer;
@@ -248,6 +249,7 @@ header {
 
 .button:hover {
   background: linear-gradient(90deg, #59bd79, #2777ac);
+  border-radius: 10px;
 }
 
 .button-flex {
