@@ -205,13 +205,6 @@ header {
   padding: 3px;
 }
 
-/* .card-image:hover {
-  color: #111;
-  background: linear-gradient(90deg, rgb(123, 237, 159), rgb(52, 152, 219));
-  box-shadow: 0 0 100px linear-gradient(90deg, rgb(123, 237, 159), rgb(52, 152, 219));
-  border-radius: 10px;
-} */
-
 .card-image .card-img {
   height: 100%;
   width: 100%;
