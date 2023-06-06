@@ -123,6 +123,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
             </section>
             <section class="about" id="about">
                 <div class="about-image">
@@ -147,40 +148,41 @@
                         wife.</p>
                 </article>
             </section>
-            <footer>
-                <section class="contact" id="contact">
-                    <h1 class="contact-h1">Contact Me</h1>
-                    <p class="contact-p">Feel free to contact me through this form!<br>
-                        I would love to hear from you.</p>
-                    <div class="contact-container">
-                        <dialog class="confirmDialog" style="display: none">
-                            <p>Thank you! Form has been submitted.</p>
-                            <a href="index.html" id="successReturn" class="cta">Go back</a>
-                        </dialog>
-                        <form id="contactForm">
-                            <label for="fullName">Full Name</label>
-                            <input type="text" id="fullName" name="fullName" placeholder="Your full name.." required>
-                            <div class="form-error" id="full-name-error"></div>
-
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="Your email.." required>
-                            <div class="form-error" id="email-error"></div>
-
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" placeholder="Subject.." required>
-                            <div class="form-error" id="subject-error"></div>
-
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" placeholder="Write something.." required></textarea>
-                            <div class="form-error" id="message-error"></div>
-
-                            <input type="submit" value="Submit">
-                        </form>
-                    </div>
-                    <p class="footer-p">&copy; 2023 My Portfolio. All rights reserved.</p>
-                </section>
-            </footer>
+        </div>
     </main>
+    <footer>
+        <section class="contact" id="contact">
+            <h1 class="contact-h1">Contact Me</h1>
+            <p class="contact-p">Feel free to contact me through this form!<br>
+                I would love to hear from you.</p>
+            <div class="contact-container">
+                <dialog class="confirmDialog" style="display: none">
+                    <p>Thank you! Form has been submitted.</p>
+                    <a href="index.html" id="successReturn" class="cta">Go back</a>
+                </dialog>
+                <form id="contactForm">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Your full name.." required>
+                    <div class="form-error" id="full-name-error"></div>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email.." required>
+                    <div class="form-error" id="email-error"></div>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject.." required>
+                    <div class="form-error" id="subject-error"></div>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.." required></textarea>
+                    <div class="form-error" id="message-error"></div>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <p class="footer-p">&copy; 2023 My Portfolio. All rights reserved.</p>
+        </section>
+    </footer>
     <script src="/js/navigation.js"></script>
     <script src="/js/contact.js"></script>
 </body>
