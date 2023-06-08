@@ -11,16 +11,16 @@ html {
 }
 
 :root {
-  --body-black: #36454f;
   --hover-color-blue: #3498db;
   --hover-color-green: #7bed9f;
-  /* ??? */
   --submit-green: #04AA6D;
+  --submit-hover: #45a049;
+  --contact-background: #f2f2f2;
   --error-red: #ff0000;
+  --nav-white: #d9d9d9;
 }
 
 body {
-  background: #36454f;
   overflow-x: hidden;
 }
 
@@ -32,10 +32,20 @@ main {
   min-width: 100%;
 }
 
+.footer-p {
+  color: white;
+  margin: auto;
+}
+
 .wrapper {
   width: 100%;
 }
 
+h1 {
+  font-size: 30px;
+}
+
+/* SECTIONS */
 section {
   display: flex;
   flex-direction: column;
@@ -43,10 +53,6 @@ section {
   width: 100%;
   min-height: 100vh;
   align-items: center;
-}
-
-h1 {
-  font-size: 30px;
 }
 
 .introduction {
@@ -67,7 +73,7 @@ h1 {
 
 header {
   height: 80px;
-  background: #d9d9d9;
+  background: var(--nav-white);
   color: black;
   display: flex;
   align-items: center;
@@ -106,7 +112,7 @@ header {
 
 .nav-bar ul li a {
   display: block;
-  color: #000000;
+  color: black;
   font-size: 20px;
   padding: 10px 25px;
   border-radius: 50px;
@@ -116,18 +122,14 @@ header {
 
 .nav-bar ul li a:hover {
   color: black;
-  background: linear-gradient(90deg, #7bed9f, #3498db);
+  background: linear-gradient(90deg, var(--hover-color-green), var(--hover-color-blue));
 }
 
 .nav-bar ul li a.active {
   color: black;
-  background: linear-gradient(90deg, #7bed9f, #3498db);
+  background: linear-gradient(90deg, var(--hover-color-green), var(--hover-color-blue));
 }
 
-.footer-p {
-  color: white;
-  margin: auto;
-}
 
 /* HOME PAGE */
 
@@ -213,7 +215,6 @@ header {
 }
 
 .description {
-  /* font-size: 14px; */
   color: #fff;
   text-align: center;
 }
@@ -226,7 +227,7 @@ header {
   border: none;
   font-size: 16px;
   padding: 8px 16px;
-  background: linear-gradient(90deg, #7bed9f, #3498db);
+  background: linear-gradient(90deg, var(--hover-color-green), var(--hover-color-blue));
   color: black;
   border-radius: 6px;
   margin: 14px;
@@ -236,7 +237,7 @@ header {
 }
 
 .button:hover {
-  background: linear-gradient(90deg, #59bd79, #2777ac);
+  background: linear-gradient(90deg, var(--hover-color-green), var(--hover-color-blue));
   border-radius: 10px;
 }
 
@@ -272,7 +273,6 @@ header {
 }
 
 .about-image {
-  /* min-height: 100vh; */
   width: 100%;
   display: block;
 }
@@ -312,7 +312,7 @@ textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: var(--submit-green);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -320,12 +320,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: var(--submit-hover);
 }
 
 .contact-container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: var(--contact-background);
   padding: 20px;
   margin: auto;
   max-width: 320px;
@@ -405,7 +405,7 @@ input[type=submit]:hover {
   .hamburger .line {
     width: 30px;
     height: 3px;
-    background: #000000;
+    background: black;
     margin: 6px 0;
   }
 
@@ -416,7 +416,7 @@ input[type=submit]:hover {
     left: 0;
     right: 0;
     width: 100vw;
-    background: #d9d9d9;
+    background: var(--nav-white);
     transition: 0.5s;
     overflow: hidden;
     z-index: 1;
