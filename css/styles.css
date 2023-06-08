@@ -159,12 +159,12 @@ header {
   background: linear-gradient(to right, #c33764, #1d2671);
 }
 
-.projects-h1 {
+.projects-h2 {
   color: white;
   font-size: 30px;
 }
 
-.projects-h2 {
+.projects-text {
   color: white;
   text-align: center;
   font-size: larger;
@@ -259,7 +259,7 @@ header {
   background-image: linear-gradient(to right, #8e2de2, #4a00e0);
 }
 
-.about-h1 {
+.about-h2 {
   color: white;
   text-align: center;
   padding: 40px;
@@ -290,7 +290,7 @@ header {
   min-height: 100vh;
 }
 
-.contact-h1 {
+.contact-h2 {
   color: white;
   text-align: center;
   margin-top: 80px;
@@ -497,11 +497,11 @@ input[type=submit]:hover {
     font-size: 16px;
   }
 
-  .projects-h1 {
+  .projects-h2 {
     font-size: 24px;
   }
 
-  .projects-h2 {
+  .projects-text {
     font-size: 16px;
     margin: 50px;
   }
