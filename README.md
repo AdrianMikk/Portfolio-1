@@ -17,8 +17,8 @@ This was a Course Assignment by Noroff.
 ## Getting Started 
 ### Executing Program 
 
-Websitehttps://adrianmikk-portfolio.netlify.app/
-https://www.figma.com/file/OuAlAmIPflLKGDuHBNdbaD/Portfolio-1?type=design&node-id=0%3A1&t=NHrk4oEyW3xOajzg-1
+[Website](https://adrianmikk-portfolio.netlify.app/)
+[Figma](https://www.figma.com/file/OuAlAmIPflLKGDuHBNdbaD/Portfolio-1?type=design&node-id=0%3A1&t=NHrk4oEyW3xOajzg-1)
 
 ## Contact 
 
